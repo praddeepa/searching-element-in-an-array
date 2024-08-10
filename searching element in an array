@@ -1,0 +1,8 @@
+class Solution:
+    #Complete the below function
+    def search(self,arr, x):
+         if(x in arr):
+            position  = arr.index(x)
+            return position 
+         else:
+            return -1 
